@@ -25,10 +25,12 @@ class Input extends React.Component {
         <h1>List</h1>
         <input type="text" placeholder="Name" value = {this.state.name} onChange = {this.onChangeName} />
         <input type="number" placeholder="Number" value = {this.state.number} onChange = {this.onChangeNumber} />
-        <button>+</button>
-        <h1>Name: {this.state.name} </h1>
-        <h1>Number: {this.state.number}</h1>
-        
+        <button className = "add">+</button>
+        <div className = "contact" >
+        <h1 className = "results">Name: {this.state.name} </h1>
+        <h1 className = "results">Number: {this.state.number}</h1>
+        <button className = "subtract">-</button>
+        </div>
       </div>
         )
     }

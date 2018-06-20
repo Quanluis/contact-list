@@ -13,7 +13,7 @@ input {
   border-radius: 1rem;
   outline: none;
 }
-button {
+.add {
   color: green;
   height: 3rem;
   width: 3rem;
@@ -21,4 +21,23 @@ button {
   font-size: 1rem;
   outline: none;
   border-radius: 1rem; 
+}
+.contact {
+  margin: auto;
+  
+}
+.results {
+ padding: 1rem;
+ margin: 1rem; 
+ margin: auto;
+ display: inline-block;
+ margin: 1.3rem;
+ color: #2CFA3F;
+}
+.subtract {
+  background: red;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  outline: none;
 }
